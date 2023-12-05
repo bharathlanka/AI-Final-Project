@@ -25,3 +25,8 @@ To use the Baroque Chess agent, follow these steps:
      pip install python-chess
    </pre>
 2. Run the provided Baroque Chess agent code.
+
+### Baroque Chess Rules
+Baroque Chess introduces unique pieces and changes to the standard chess rules. Familiarize yourself with the Baroque Chess rules to understand the game dynamics with this [About Baroque Chess](https://en.wikipedia.org/wiki/Baroque_chess)
+
+
