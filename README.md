@@ -164,3 +164,9 @@ The evaluation function assigns values to pieces and calculates a board score ba
 
 **-float**: The evaluated score of the board.
 
+### Customization
+
+Feel free to enhance the evaluation function or experiment with different search depths to tailor the agent's behavior to your preferences.
+
+
+### Output 
