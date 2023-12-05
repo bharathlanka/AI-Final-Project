@@ -18,7 +18,7 @@ This repository contains a Python implementation of a Baroque Chess agent using 
 
 ### Introduction
 
-Baroque Chess is a variant of chess that introduces unconventional pieces and changes to the standard chess rules. This project implements a Baroque Chess agent with a basic evaluation function and the alpha-beta pruning algorithm to make optimal moves.
+- Baroque Chess is a variant of chess that introduces unconventional pieces and changes to the standard chess rules. This project implements a Baroque Chess agent with a basic evaluation function and the alpha-beta pruning algorithm to make optimal moves.
 
 ### Usage
 To use the Baroque Chess agent, follow these steps:
@@ -68,15 +68,15 @@ board = chess.Board(initial_position)
    
 
 ### Baroque Chess Rules
-Baroque Chess introduces unique pieces and changes to the standard chess rules. Familiarize yourself with the Baroque Chess rules to understand the game dynamics with the reference [About Baroque Chess](https://en.wikipedia.org/wiki/Baroque_chess)
+- Baroque Chess introduces unique pieces and changes to the standard chess rules. Familiarize yourself with the Baroque Chess rules to understand the game dynamics with the reference [About Baroque Chess](https://en.wikipedia.org/wiki/Baroque_chess)
 
 
 ### Agent Implementation
-The BaroqueChessAgent class implements the Baroque Chess agent. It includes methods for evaluating the board, performing alpha-beta pruning, and determining the best move.
+- The BaroqueChessAgent class implements the Baroque Chess agent. It includes methods for evaluating the board, performing alpha-beta pruning, and determining the best move.
 
 
 ### Alpha-Beta Pruning
-The agent utilizes the Alpha-Beta Pruning algorithm to optimize the minimax search, efficiently exploring the game tree and reducing the number of evaluated positions.
+- The agent utilizes the Alpha-Beta Pruning algorithm to optimize the minimax search, efficiently exploring the game tree and reducing the number of evaluated positions.
 
 <pre>
 def alpha_beta_pruning(self, board, depth, alpha, beta, maximizing_player):
@@ -111,7 +111,7 @@ def alpha_beta_pruning(self, board, depth, alpha, beta, maximizing_player):
                
 **Description:**
 
-This method recursively implements the Alpha-Beta Pruning algorithm for decision-making during gameplay. It evaluates possible moves on the chess board, minimizing the number of positions evaluated to improve performance.
+- This method recursively implements the Alpha-Beta Pruning algorithm for decision-making during gameplay. It evaluates possible moves on the chess board, minimizing the number of positions evaluated to improve performance.
 
 **Parameters:**
 
@@ -130,7 +130,7 @@ This method recursively implements the Alpha-Beta Pruning algorithm for decision
 **'-float'**: The evaluated score of the board.
 
 ### Evaluation Function
-The evaluation function assigns values to pieces and calculates a board score based on the current piece configuration. Feel free to enhance this function for more sophisticated evaluations.
+- The evaluation function assigns values to pieces and calculates a board score based on the current piece configuration. Feel free to enhance this function for more sophisticated evaluations.
 
 **evaluate_board method:**
 <pre>
@@ -187,7 +187,7 @@ The evaluation function assigns values to pieces and calculates a board score ba
 
 ### Customization
 
-Feel free to enhance the evaluation function or experiment with different search depths to tailor the agent's behavior to your preferences.
+- Feel free to enhance the evaluation function or experiment with different search depths to tailor the agent's behavior to your preferences.
 
 
 ### Output 
