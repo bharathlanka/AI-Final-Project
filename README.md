@@ -164,9 +164,37 @@ The evaluation function assigns values to pieces and calculates a board score ba
 
 **-float**: The evaluated score of the board.
 
+### Get Best Move Method
+
+- The get_best_move method is a crucial component of the Baroque Chess Agent. This method is responsible for determining the best move for the agent based on the current state of the chessboard. The decision-making process is enhanced by the implementation of the Alpha-Beta Pruning algorithm.
+- The **get_best_move** method starts by initializing variables to keep track of the best move (**best_move**) and its evaluation score (**best_eval**). It then iterates through the legal moves available on the current board, evaluating each move using the **alpha_beta_pruning** method.
+  
+  <pre>
+     def get_best_move(self, board):
+  </pre>
+
+**Parameters:**
+
+- **'self'**: The instance of the BaroqueChessAgent class.
+  
+- **board (type: chess.Board):** The current state of the chessboard, representing the position of pieces and their configurations.
+
+**Return Value**
+
+- Returns the best move (type: **chess.Move**) according to the Alpha-Beta Pruning algorithm.
+
+  
+
 ### Customization
 
 Feel free to enhance the evaluation function or experiment with different search depths to tailor the agent's behavior to your preferences.
 
 
 ### Output 
+
+- The output provides, the game likely reached a position or a series of moves that met the draw conditions specified for Baroque Chess. The script detected this draw condition using **board.is_variant_draw()** and concluded the game with a draw result.
+
+- Without specific details about the moves made before the draw, it's challenging to pinpoint the exact reason for the draw. Baroque Chess can have unique draw conditions, and the specific position leading to the draw would need closer examination based on the moves made during the gameplay.
+
+
+
